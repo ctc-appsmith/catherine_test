@@ -16,7 +16,7 @@ jobs:
     - name: Pull changes on Production Server
       uses: appleboy/ssh-action@master
       with:
-        host: ${{ ec2-54-82-90-29.compute-1.amazonaws.com }}
+        host: ${{ ec2-54-82-90-29 }}
         username: ${{ appsmith }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
