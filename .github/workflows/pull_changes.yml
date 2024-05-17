@@ -30,5 +30,4 @@ jobs:
         username: appsmith
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd /home/appsmith/appsmith/stacks/git-storage/654aaabe7cc2433ce3db51f9
           ${{ secrets.SCRIPT }}
